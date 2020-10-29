@@ -10,7 +10,7 @@ package com.hitesh_sahu.retailapp.view.adapter;
 
 import android.content.Context;
 import android.os.Parcelable;
-import android.support.v4.view.PagerAdapter;
+import androidx.viewpager.widget.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -125,7 +125,7 @@ public class SimilarProductsPagerAdapter extends PagerAdapter {
         final String ImageUrl = CenterRepository.getCenterRepository().getMapOfProductsInCategory()
                 .get(productCategory).get(position).getImageURL();
 
-        Picasso.with(mContext).load(ImageUrl).placeholder(drawable)
+        Picasso.get().load(ImageUrl).placeholder(drawable)
                 .error(drawable).fit().centerCrop()
                 .networkPolicy(NetworkPolicy.OFFLINE)
                 .into(imageView, new Callback() {
@@ -135,10 +135,10 @@ public class SimilarProductsPagerAdapter extends PagerAdapter {
                     }
 
                     @Override
-                    public void onError() {
+                    public void onError(Exception e) {
                         // Try again online if cache failed
 
-                        Picasso.with(mContext).load(ImageUrl)
+                        Picasso.get().load(ImageUrl)
                                 .placeholder(drawable).error(drawable).fit()
                                 .centerCrop().into(imageView);
                     }

@@ -9,13 +9,14 @@
 package com.hitesh_sahu.retailapp.view.adapter;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.GenericTransitionOptions;
 import com.bumptech.glide.Glide;
 import com.hitesh_sahu.retailapp.R;
 import com.hitesh_sahu.retailapp.model.CenterRepository;
@@ -78,7 +79,8 @@ public class CategoryListAdapter extends
         ImageUrl = categoryList.get(categoryIndex).getProductCategoryImageUrl();
 
         Glide.with(context).load(ImageUrl).placeholder(drawable)
-                .error(drawable).animate(R.anim.base_slide_right_in)
+                .error(drawable)
+                .transition(GenericTransitionOptions.with(R.anim.base_slide_right_in))
                 .centerCrop().into(versionViewHolder.imagView);
 
         LabelView label = new LabelView(context);

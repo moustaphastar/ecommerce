@@ -9,7 +9,7 @@
 package com.hitesh_sahu.retailapp.view.customview;
 
 import android.content.Context;
-import android.support.v4.view.ViewPager;
+import androidx.viewpager.widget.ViewPager;
 import android.util.AttributeSet;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
@@ -34,13 +34,10 @@ public class ClickableViewPager extends ViewPager {
     private void setup() {
         final GestureDetector tapGestureDetector = new GestureDetector(getContext(), new TapGestureListener());
 
-        setOnTouchListener(new OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                tapGestureDetector.onTouchEvent(event);
+        setOnTouchListener((v, event) -> {
+            tapGestureDetector.onTouchEvent(event);
 
-                return false;
-            }
+            return false;
         });
     }
 
