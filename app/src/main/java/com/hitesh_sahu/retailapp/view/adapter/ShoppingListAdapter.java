@@ -10,8 +10,10 @@ package com.hitesh_sahu.retailapp.view.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.v4.view.MotionEventCompat;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.core.view.MotionEventCompat;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.text.Spannable;
 import android.text.Spanned;
 import android.text.style.StrikethroughSpan;
@@ -24,6 +26,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.TextView.BufferType;
 
+import com.bumptech.glide.GenericTransitionOptions;
 import com.bumptech.glide.Glide;
 import com.hitesh_sahu.retailapp.R;
 import com.hitesh_sahu.retailapp.model.CenterRepository;
@@ -47,7 +50,7 @@ import java.util.List;
 /**
  * Simple RecyclerView.Adapter that implements {@link ItemTouchHelperAdapter} to
  * respond to move and dismiss events from a
- * {@link android.support.v7.widget.helper.ItemTouchHelper}.
+ * {@link androidx.recyclerview.widget.ItemTouchHelper}.
  *
  * @author Hitesh Sahu (hiteshsahu.com)
  */
@@ -118,7 +121,8 @@ public class ShoppingListAdapter extends
                 .getListOfProductsInShoppingList().get(position).getQuantity());
 
         Glide.with(context).load(ImageUrl).placeholder(drawable)
-                .error(drawable).animate(R.anim.base_slide_right_in)
+                .error(drawable)
+                .transition(GenericTransitionOptions.with(R.anim.base_slide_right_in))
                 .centerCrop().into(holder.imagView);
 
         // Start a drag whenever the handle view it touched

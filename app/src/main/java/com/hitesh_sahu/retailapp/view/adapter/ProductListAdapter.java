@@ -9,7 +9,7 @@
 package com.hitesh_sahu.retailapp.view.adapter;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.Spannable;
 import android.text.Spanned;
 import android.text.style.StrikethroughSpan;
@@ -21,6 +21,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.TextView.BufferType;
 
+import com.bumptech.glide.GenericTransitionOptions;
 import com.bumptech.glide.Glide;
 import com.hitesh_sahu.retailapp.R;
 import com.hitesh_sahu.retailapp.model.CenterRepository;
@@ -121,7 +122,8 @@ public class ProductListAdapter extends
 
 
         Glide.with(context).load(ImageUrl).placeholder(drawable)
-                .error(drawable).animate(R.anim.base_slide_right_in)
+                .error(drawable)
+                .transition(GenericTransitionOptions.with(R.anim.base_slide_right_in))
                 .centerCrop().into(holder.imagView);
 
 

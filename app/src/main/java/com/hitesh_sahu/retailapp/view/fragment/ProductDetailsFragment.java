@@ -9,9 +9,9 @@ package com.hitesh_sahu.retailapp.view.fragment;
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.GravityCompat;
-import android.support.v7.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.core.view.GravityCompat;
+import androidx.appcompat.widget.Toolbar;
 import android.text.Spannable;
 import android.text.Spanned;
 import android.text.style.StrikethroughSpan;
@@ -518,7 +518,7 @@ public class ProductDetailsFragment extends Fragment {
                             .get(subcategoryKey).get(productListNumber)
                             .getItemName()));
 
-            Picasso.with(getActivity())
+            Picasso.get()
                     .load(CenterRepository.getCenterRepository().getMapOfProductsInCategory()
                             .get(subcategoryKey).get(productListNumber)
                             .getImageURL()).placeholder(drawable)
@@ -531,10 +531,10 @@ public class ProductDetailsFragment extends Fragment {
                         }
 
                         @Override
-                        public void onError() {
+                        public void onError(Exception e) {
                             // Try again online if cache failed
 
-                            Picasso.with(getActivity())
+                            Picasso.get()
                                     .load(CenterRepository.getCenterRepository()
                                             .getMapOfProductsInCategory()
                                             .get(subcategoryKey)
@@ -597,7 +597,7 @@ public class ProductDetailsFragment extends Fragment {
                             .getCenterRepository().getListOfProductsInShoppingList()
                             .get(productListNumber).getItemName()));
 
-            Picasso.with(getActivity())
+            Picasso.get()
                     .load(CenterRepository.getCenterRepository()
                             .getListOfProductsInShoppingList().get(productListNumber)
                             .getImageURL()).placeholder(drawable)
@@ -610,10 +610,10 @@ public class ProductDetailsFragment extends Fragment {
                         }
 
                         @Override
-                        public void onError() {
+                        public void onError(Exception e) {
                             // Try again online if cache failed
 
-                            Picasso.with(getActivity())
+                            Picasso.get()
                                     .load(CenterRepository.getCenterRepository()
                                             .getListOfProductsInShoppingList()
                                             .get(productListNumber)

@@ -12,7 +12,7 @@ import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.KeyEvent;
@@ -83,7 +83,7 @@ public class SearchProductFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
 
-                Toast.makeText(getActivity(), "Selected" + position, 500)
+                Toast.makeText(getActivity(), "Selected" + position, Toast.LENGTH_SHORT)
                         .show();
 
             }

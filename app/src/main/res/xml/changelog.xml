@@ -8,6 +8,15 @@
   -->
 
 <changelog>
+    <release
+        date="29/10/2020"
+        summary="Upgrade java and other packages/libraries to higher versions."
+        version="1.3"
+        versioncode="4">
+        <change index="1">Java version is ported to 1.8.</change>
+        <change index="2">Gradle version is upgraded to 4.0.0.</change>
+        <change index="3">Third party libraries upgraded to current versions.</change>
+    </release>
 
     <release
         date="12/26/2012"
