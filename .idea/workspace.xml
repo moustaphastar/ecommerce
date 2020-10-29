@@ -5,6 +5,9 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
@@ -28,113 +31,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35419d9c-e71d-4133-82c1-f5654bc338bb" name="Default" comment="Upgraded gradle to v6.7, android sdk to v30 and the 3rd party libraries to latest ones. Migrated support libraries to androidx.">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____app_libs_com_google_guava_1_6_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_palette_palette_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_acra_acra_4_11_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_flaviofaria_kenburnsview_1_0_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_PhilJay_MPAndroidChart_v3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_11_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_11_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nineoldandroids_library_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_wang_avi_library_1_0_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Art/checkout_screen_visble_amount.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Art/collapsable_header_category.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Art/drag_drop_swipe_dismiss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Art/empty_cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Art/home_screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Art/nav_drawer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Art/persistance_storage_onrelaunch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Art/product_category.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Art/product_detail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Art/product_detail_from_cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Art/product_detail_suggestions.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Art/splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Art/visivle_total_amount.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Art/visivle_total_amount_from_product_detail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/domain/api/ProductCategoryLoaderTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/domain/api/ProductCategoryLoaderTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/domain/api/ProductLoaderTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/domain/api/ProductLoaderTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/util/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/activities/APrioriResultActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/activities/APrioriResultActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/activities/ECartHomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/activities/ECartHomeActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/activities/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/activities/SplashActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/adapter/CategoryListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/adapter/CategoryListAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/adapter/ItemTouchHelperAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/adapter/ItemTouchHelperAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/adapter/ProductListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/adapter/ProductListAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/adapter/ProductsInCategoryPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/adapter/ProductsInCategoryPagerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/adapter/ShoppingListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/adapter/ShoppingListAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/adapter/SimilarProductsPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/adapter/SimilarProductsPagerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/customview/ClickableViewPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/customview/ClickableViewPager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/customview/ItemTouchHelperAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/customview/ItemTouchHelperAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/customview/ItemTouchHelperViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/customview/ItemTouchHelperViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/customview/OnStartDragListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/customview/OnStartDragListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/customview/ScrollableViewHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/customview/ScrollableViewHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/customview/SimpleItemTouchHelperCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/customview/SimpleItemTouchHelperCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/customview/ViewDragHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/customview/ViewDragHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/ContactUsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/ContactUsFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/HomeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/MyCartFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/MyCartFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/ProductDetailsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/ProductDetailsFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/ProductListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/ProductListFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/ProductOverviewFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/ProductOverviewFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/SearchProductFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/SearchProductFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/SettingsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitesh_sahu/retailapp/view/fragment/SettingsFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_apriori_result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_apriori_result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ecart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ecart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/frag_about.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frag_about.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/frag_category_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frag_category_details.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/frag_my_cart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frag_my_cart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/frag_product_category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frag_product_category.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/frag_product_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frag_product_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/frag_product_list_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frag_product_list_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/frag_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/frag_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_category_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_category_list.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_product_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_product_list.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_transparent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_transparent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_w_shadow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_w_shadow.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/xml/changelog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/import-summary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -391,6 +290,14 @@
       <option name="presentableId" value="Default" />
       <updated>1503319589141</updated>
     </task>
+    <task id="LOCAL-00001" summary="Upgraded gradle to v6.7, android sdk to v30 and the 3rd party libraries to latest ones. Migrated support libraries to androidx.">
+      <created>1603989515612</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603989515612</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,30 +322,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="200" y="110" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1603974694074" />
+    <state x="129" y="55" key="DiffContextDialog" timestamp="1603998324574">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1603998324574" />
     <state x="463" y="90" key="FileChooserDialogImpl" timestamp="1603980492281">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="90" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603980492281" />
-    <state width="1323" height="137" key="GridCell.Tab.0.bottom" timestamp="1603989342409">
+    <state width="661" height="179" key="GridCell.Tab.0.bottom" timestamp="1603989899099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603989342409" />
-    <state width="1323" height="137" key="GridCell.Tab.0.center" timestamp="1603989342409">
+    <state width="661" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603989899099" />
+    <state width="661" height="179" key="GridCell.Tab.0.center" timestamp="1603989899099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603989342409" />
-    <state width="1323" height="137" key="GridCell.Tab.0.left" timestamp="1603989342409">
+    <state width="661" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603989899099" />
+    <state width="661" height="179" key="GridCell.Tab.0.left" timestamp="1603989899098">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603989342409" />
-    <state width="1323" height="137" key="GridCell.Tab.0.right" timestamp="1603989342409">
+    <state width="661" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603989899098" />
+    <state width="661" height="179" key="GridCell.Tab.0.right" timestamp="1603989899099">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603989342409" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603987907101">
+    <state width="661" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603989899099" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603998329997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603987907101" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603998329997" />
     <state x="467" y="265" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603978638622">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
