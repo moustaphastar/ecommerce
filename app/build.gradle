@@ -14,7 +14,7 @@ android {
 
     defaultConfig {
         applicationId "com.hitesh_sahu.retailshop"
-        minSdkVersion 14
+        minSdkVersion 23
         targetSdkVersion 30
     }
 
